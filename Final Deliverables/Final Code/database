@@ -1,0 +1,44 @@
+CREATE TABLE booktb (
+  Bookid varchar(250) NOT NULL,
+  ProductId varchar(250) NOT NULL,
+  ProductName varchar(250) NOT NULL,
+  UserName varchar(250) NOT NULL,
+  Mobile varchar(250) NOT NULL,
+  Email varchar(250) NOT NULL,
+  Qty varchar(250) NOT NULL,
+  Amount decimal(18,0) NOT NULL,
+  CardType varchar(250) NOT NULL,
+  CardNo varchar(250) NOT NULL,
+  Cvno varchar(250) NOT NULL,
+  BDate varchar(250) NOT NULL
+)
+
+
+ CREATE TABLE PROTB (
+  PRODUCTID varchar(250) NOT NULL,
+  GENDER varchar(250) NOT NULL,
+  CATEGORY varchar(250) NOT NULL,
+  SUBCATEGORY varchar(250) NOT NULL,
+  PRODUCTTYPE varchar(250) NOT NULL,
+  COLOUR varchar(250) NOT NULL,
+  PUSAGE varchar(250) NOT NULL,
+  PRODUCTTITLE varchar(250) NOT NULL,
+  IMAGE varchar(250) NOT NULL,
+  IMAGEURL varchar(250) NOT NULL,
+
+  PRICE varchar(250) NOT NULL
+)
+
+
+
+CREATE TABLE REGTB (
+  NAME varchar(250) NOT NULL,
+  GENDER varchar(250) NOT NULL,
+  AGE varchar(250) NOT NULL,
+  EMAIL varchar(250) NOT NULL,
+  MOBILENO varchar(250) NOT NULL,
+  ADDRESS varchar(250) NOT NULL,
+  USERNAME varchar(250) NOT NULL,
+  PASSWORD varchar(250) NOT NULL
+
+)
